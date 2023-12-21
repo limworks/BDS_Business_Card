@@ -1,4 +1,26 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #C8E6CA;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 900px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 8px 3px rgba(0, 0, 0, 0.3);
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -6,12 +28,14 @@
   right: 0;
   padding: 10px;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .footer a {
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+  color: #404b41;
 }
 
 .footer span {
